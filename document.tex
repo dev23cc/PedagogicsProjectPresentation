@@ -1,0 +1,510 @@
+\documentclass[hyperref={pdfpagelabels=false}, t]{beamer}
+\usepackage{ragged2e}
+\usepackage{changepage}
+\usepackage{lmodern}
+\usepackage{graphicx}
+%\usepackage{enumitem} % for no bullets
+\usetheme{Madrid}
+%\providecommand{\thispdfpagelabel}[1]{}
+%%-----------------------------------------------------------------------------
+% Languages
+%%-----------------------------------------------------------------------------
+\usepackage{xgreek}
+\usepackage[Greek,Latin]{ucharclasses}
+\setTransitionsForGreek{\setlanguage{greek}}{\setlanguage{english}}
+
+%%-----------------------------------------------------------------------------
+% Fonts
+%%-----------------------------------------------------------------------------
+\usepackage{fontspec}
+\setmainfont{GFS Didot} % substitute with any font that exists on your system
+\setsansfont{GFS Didot} % substitute with any font that exists on your system
+\setmonofont{GFS Didot} % substitute with any font that exists on your system
+
+
+%%-----------------------------------------------------------------------------
+% Beamer Stuff
+%%-----------------------------------------------------------------------------
+\title{Ο χουλιγκανισμός στα σχολεία}
+\author[Παιδαγωγικά]{XXXXXXX XXXXXXXX - 0000 \\ XXXXXXXX
+XXXXXXXX  - 0000 \\ XXXXXXXX XXXXXXXX - 0000 \\ XXXXXXXX XXXXXXXX – 0000
+\vspace{5.5pt} \\ 7ο εξάμηνο \\ Διδάσκων καθηγητής: XX XX
+\\Νοέμβριος 2014 }
+\date{}
+%\vspace{-10.5pt}
+% {\footnotesize \normalsize Εργασία στο
+%μάθημα των Παιδαγωγικών} %
+
+%\subtitle{MySQL}
+
+
+%\setbeamersize{text margin left=1pt,text margin right=5pt} Universal left
+% margin removal 
+\let\olditem=\item%
+\renewcommand{\item}{\olditem \justifying}%
+
+\begin{document}
+
+\begin{frame}[t]
+% \newgeometry{top=0cm, left=0cm, right=0cm, bottom=0cm}
+\vspace{1.5pt}
+\centering\includegraphics[scale=0.5]{logo}
+\vspace{5.5pt}
+\titlepage
+%\restoregeometry 
+\end{frame} 
+
+%\section{Ορισμός και ετυμολογία του όρου}
+
+%
+% First Slide
+%
+
+\begin{frame}[fragile,t]% for aligning text on the top of the slide
+    \begin{minipage}[t]{0.99\textwidth}
+      %  \vspace{0pt}
+\frametitle{Ορισμός και ετυμολογία του όρου}
+\vspace{-18.5pt} % reduce frame title after spacing
+%% \makebox[\linewidth]{\rule{12cm}{3cm}} % a nice black box
+
+%% Spacing between bullets and text
+% \setlength\labelsep   {\dimexpr\labelsep + 0.5em\relax}  
+% \setlength\leftmargini{\dimexpr\leftmargini + 0.5em\relax}
+%%
+\begin{adjustwidth}{-0.7cm}{} % reduce left spacing
+\justifying
+\begin{itemize} %\setlength{\itemsep}{15pt}
+\item Ρατσιστική, ανάρμοστη, βίαιαη και
+αντικοινωνική συμπεριφορά.\setlength{\itemsep}{15pt}
+\item Συμμορίες του δρόμου - Λονδίνο δεκαετία
+1980 - Patrick Hooligan. \setlength{\itemsep}{15pt}
+\item Πολυπληθείς χειραγωγούμενες ομάδες ανθρώπων (Γκουστάβ Λε Μπόν) - ψυχολογία
+της μάζας (Φρόυντ). \setlength{\itemsep}{15pt}
+\item\setlength{\itemsep}{15pt}Εξάπλωση του φαινομένου σε Χώρες της Ευρώπης και
+της Αμερικής.
+\end{itemize}
+\end{adjustwidth}
+\end{minipage}
+\end{frame}
+
+%
+% Second Slide
+%
+
+\begin{frame}[t]
+\frametitle{Αίτια και μορφές του μαθητικού χουλιγκανισμού}
+\vspace{-18.5pt}
+\begin{adjustwidth}{-0.7cm}{}
+\justifying
+\begin{itemize}
+\item Απότομη μετάβαση από την αυταρχική στην αντιαυταρχική εκπαίδευση των
+τελευταίων τριανταπέντε ετών, χωρίς ενδιάμεσο στάδιο
+προετοιμασίας.\setlength{\itemsep}{15pt}
+\item Ανεπαρκή εκπαιδευτικά εγχειρίδια - λανθασμένα
+εκπαιδευτικά συστήματα. \setlength{\itemsep}{15pt}
+\item Επιβολή της γνώσης. \setlength{\itemsep}{15pt}
+\item Εξάσκηση της απομνημονευτικής και όχι
+της κριτικής ικανότητας των μαθητών. \setlength{\itemsep}{15pt}
+\item Νεοφασισμός και κομματισμός στα σχολεία. \setlength{\itemsep}{15pt}
+\end{itemize}
+\end{adjustwidth}
+\end{frame}
+
+%
+% Third Slide
+%
+
+\begin{frame}[t]
+\frametitle{Αίτια και μορφές του μαθητικού χουλιγκανισμού}
+\vspace{-18.5pt}
+\begin{adjustwidth}{-0.7cm}{}
+\justifying
+\begin{itemize}
+\item Αγόρια πιο επιθετικά από τα κορίτσια από προσχολική έως και εφηβική ηλικία
+(15 έως 18 ετών).  \setlength{\itemsep}{15pt}
+\item \textbf{Άμεση και συντελεστική επιθετικότητα} (ο μαθητής απειλεί τους
+άλλους).
+\setlength{\itemsep}{15pt}
+\item \textbf{Άμεση και αντιδραστική  επιθετικότητα} (ο μαθητής απειλεί τους
+άλλους για να πετύχει το στόχο του ή απειλεί όσους τον απειλούν). \setlength{\itemsep}{15pt}
+\item \textbf{Έμμεση και συντελεστική επιθετικότητα} (ο μαθητής κουτσομπολεύει
+και διαδίδει φήμες για τους άλλους). \setlength{\itemsep}{15pt}
+\item \textbf{Έμμεση και αντιδραστική επιθετικότητα} (ο μαθητής όταν γίνεται
+έξαλλος με τους άλλους, συχνά κουτσομπολεύει ή διαδίδει φήμες γι’ αυτούς).
+\setlength{\itemsep}{15pt}
+\end{itemize}
+\end{adjustwidth}
+\end{frame}
+
+%
+% Fourth Slide
+%
+
+\begin{frame}[t]
+\frametitle{Αίτια και μορφές του μαθητικού χουλιγκανισμού}
+\vspace{-18.5pt}
+\begin{adjustwidth}{-0.7cm}{}
+\justifying
+\begin{itemize}
+\item Εκπαίδευση από την οικογένεια ώστε να αντιδρούν επιθετικά.
+\setlength{\itemsep}{15pt}
+\item Eξώθησή τους λόγω κακοποίησης (ψυχικής ή σωματικής).
+\setlength{\itemsep}{15pt}
+\item Θυμός και απογοήτευση από πίεση για ανταπόκριση στα καθήκοντα της
+καθημερινότητας. \setlength{\itemsep}{15pt}
+\item Μίμηση αρνητικών προτύπων (ΜΜΕ).
+\setlength{\itemsep}{15pt}
+\item Οικονομική κρίση - ανέχεια, ανεπαρκής πρόνοια. \setlength{\itemsep}{15pt}
+\item Θεοποίηση του χρήματος και των υλικών αγαθών. \setlength{\itemsep}{15pt}
+\end{itemize}
+\end{adjustwidth}
+\end{frame}
+
+%
+% Fifth Slide
+%
+
+\begin{frame}[t]
+\frametitle{Αίτια και μορφές του μαθητικού χουλιγκανισμού}
+\vspace{-18.5pt}
+\begin{adjustwidth}{-0.7cm}{}
+\justifying
+\begin{itemize}
+\item Aποδοκιμάσμός και απορρίψη απο την σχολική κοινότητα ομάδων παιδιών που
+παρουσιάζουν επιθετικές συμπεριφορές. \setlength{\itemsep}{15pt}
+\item Σωματικοί, γνωστικοί και συναισθηματικοί προδιαθεσικοί παράγοντες.
+\end{itemize}
+\end{adjustwidth}
+\end{frame}
+
+%
+% Sixth Slide
+%
+
+\begin{frame}[t]
+\frametitle{Το φαινόμενο του εκφοβισμού (bullying)}
+\vspace{-18.5pt}
+\begin{adjustwidth}{-0.7cm}{}
+\justifying
+\begin{itemize}
+\item Φαινόμενο επαναλαμβανόμενης, απρόκλητης, σκόπιμης και συνειδητής
+  πρόθεσης πρόκλησης βλάβης ή φόβου σε κάποιον. \setlength{\itemsep}{15pt}
+\item Έρευνα του Π.Ο.Υ. έδειξε οτι ένα ποσοστό από 9 \% ως και 73 \% παιδιών
+επιδίδονται σε εκφοβισμό συμμαθητών τους. \setlength{\itemsep}{15pt}
+\item Έρευνα  σε 60 Χώρες έδειξε οτι το 37,4 \% των παιδιών έχει υποστεί
+εκφοβισμό τουλάχιστον μια φορά το μήνα !  \setlength{\itemsep}{15pt}
+\item Ξεκινά με εκφοβισμό στην Δευτεροβάθμια εκπαίδευση, εξελίσσεται σε
+παρενόχληση και βία στις διαπροσωπικές συναισθηματικές σχέσεις καθώς και σε ένα
+πλήθος ακαδημαϊκών, κοινωνικών και ψυχοσωματικών συνεπειών.
+\end{itemize}
+\end{adjustwidth}
+\end{frame}
+
+%
+% Seventh Slide
+%
+
+\begin{frame}[t]
+\frametitle{Το φαινόμενο του εκφοβισμού (bullying)}
+\vspace{-18.5pt}
+\begin{adjustwidth}{-0.7cm}{}
+\justifying
+\begin{itemize}
+\item Άμεσος εκφοβισμός \setlength{\itemsep}{15pt}
+% nested bullets
+\begin{itemize}
+  \item Σωματικός εκφοβισμός
+  \item Άμεσος λεκτικός εκφοβισμός
+  \item Eκφοβισμός, που δεν είναι ούτε σωματικός ούτε λεκτικός.
+\end{itemize}
+\item Έμμεσος εκφοβισμός  \setlength{\itemsep}{15pt}
+\item Διάφορες εγκληματικές συμπεριφορές. \setlength{\itemsep}{15pt}
+\item 'Ισα ποσοστά κοριτσιών, εκφοβίζουν κορίτσια, καθώς και αγόρια που
+εκφοβίζουν αγόρια ή κορίτσια. %\setlength{\itemsep}{15pt}
+\end{itemize}
+\end{adjustwidth}
+\end{frame}
+
+%
+% Eight Slide
+%
+
+\begin{frame}[t]
+\frametitle{Το φαινόμενο του εκφοβισμού (bullying)}
+\vspace{-18.5pt}
+\begin{adjustwidth}{-0.7cm}{}
+\justifying
+\begin{itemize}
+\item Παριστάμενοι σε περιστατικά εκφοβισμού
+\begin{itemize}
+  \item Βοηθοί
+  \item Ενισχυτές
+  \item Παθητικοί θεατές
+  \item Προασπιστές 
+\end{itemize}
+\end{itemize}
+\end{adjustwidth}
+\end{frame}
+
+%
+% Ninth Slide
+%
+
+\begin{frame}[t]
+\frametitle{Αιτιολογικοί παράγοντες του σχολικού εκφοβισμού}
+\vspace{-18.5pt}
+\begin{adjustwidth}{-0.7cm}{}
+\justifying
+\begin{itemize}
+\item Ατομικοί παράγοντες \setlength{\itemsep}{15pt}
+\item Οικογενειακοί παράγοντες \setlength{\itemsep}{15pt}
+\item Tο ίδιο το σχολείο
+\end{itemize}
+\end{adjustwidth}
+\end{frame}
+
+%
+% Tenth Slide
+%
+
+\begin{frame}[t]
+\frametitle{Ο κυβερνοεκφοβισμός}
+\vspace{10pt}
+\framesubtitle{Oρισμός του όρου}
+\vspace{-18.5pt}
+\begin{adjustwidth}{-0.7cm}{}
+\justifying
+\begin{list}{\quad}{}
+\item Σύμφωνα με το Εθνικό Συμβούλιο Πρόληψης του Εγκλήματος των Η.Π.Α. - ο
+κυβερνοεκφοβισμός - είναι η σκόπιμη και επαναλαμβανόμενη εχθρική συμπεριφορά,
+που εκφραζόμενη μέσω απειλητικών μηνυμάτων και ψευδών εικόνων, δια του διαδικτύου ή των κινητών τηλεφώνων, αποσκοπεί στην πρόκληση ηθικής βλάβης ή στη δημιουργία προβλημάτων και φόβου από ένα άτομο ή ομάδα ατόμων, σε κάποιο άλλο άτομο, με
+στόχο τη σπίλωση της υπόληψής του και την καταστροφή της κοινωνικής και επαγγελματικής
+του ζωής.
+\end{list}
+\end{adjustwidth}
+\end{frame}
+
+%
+% Eleventh Slide
+%
+
+\begin{frame}[t]
+\frametitle{Ο κυβερνοεκφοβισμός}
+\vspace{10pt}
+\framesubtitle{Μορφές του κυβερνοεκφοβισμού}
+\vspace{-18.5pt}
+\begin{adjustwidth}{-0.7cm}{}
+\justifying
+\begin{list}{\quad}{}
+\item \textbf{Μορφές κυβερνοεκφοβισμού}
+\end{list}
+\begin{itemize}
+  \item Διαδικτυακή παρακολούθηση (Cyberstalking). \setlength{\itemsep}{15pt}
+  \item Σπίλωση και δυσφήμιση (Denigration). \setlength{\itemsep}{15pt}
+  \item Αποκλεισμός ή εξοστρακισμός από το διαδίκτυο (Exclusion).   \setlength{\itemsep}{15pt} 
+  \item Φλόγισμα (Flaming), δηλαδή αποστολή προσβλητικού μηνύματος σε χυδαία  
+  γλώσσα. \setlength{\itemsep}{15pt} 
+  \item Βιντεοσκόπηση με το κινητό (Happy slapping). \setlength{\itemsep}{15pt}
+  \item Διαδικτυακή παρενόχληση (Harassment). \setlength{\itemsep}{15pt}
+
+\end{itemize}
+\end{adjustwidth}
+\end{frame}
+
+%
+% Twelfth Slide
+%
+
+\begin{frame}[t]
+\frametitle{Ο κυβερνοεκφοβισμός}
+\vspace{10pt}
+\framesubtitle{Μορφές του κυβερνοεκφοβισμού}
+\vspace{-18.5pt}
+\begin{adjustwidth}{-0.7cm}{}
+\justifying
+\begin{itemize}
+  \item Υποκλοπή και χρήση προσωπικού λογαριασμού (Impersonation ή Masquerade
+  μεταμφίεση). \setlength{\itemsep}{15pt} 
+  \item Δημοσιοποίηση προσωπικών στοιχείων (Outing).  \setlength{\itemsep}{15pt}
+  \item Εμπαιγμός και εξαπάτηση (Trickery). \setlength{\itemsep}{15pt}
+\end{itemize}
+\begin{list}{\quad}{}
+\item \textbf{Συνηθέστεροι τρόποι ηλεκτρονικής επικοινωνίας, για τη διάπραξη του
+Kυβερνοεκφοβισμού}
+\end{list}
+\begin{itemize}
+  \item Το ηλεκτρονικό ταχυδρομείο (e-mail).  \setlength{\itemsep}{15pt} 
+  \item Tα άμεσα μηνύματα (Instant Messaging - IM)  \setlength{\itemsep}{15pt} 
+\end{itemize}
+\end{adjustwidth}
+\end{frame}
+
+%
+% Thirteenth Slide
+%
+
+\begin{frame}[t]
+\frametitle{Ο κυβερνοεκφοβισμός}
+\vspace{10pt}
+\framesubtitle{Μορφές του κυβερνοεκφοβισμού}
+\vspace{-18.5pt}
+\begin{adjustwidth}{-0.7cm}{}
+\justifying
+\begin{itemize}
+  \item Tα μηνύματα γραπτού κειμένου σε κινητό (sms). \setlength{\itemsep}{15pt}
+  \item Oι φωτογραφίες και τα βίντεο.  \setlength{\itemsep}{15pt}   
+\end{itemize}
+\begin{list}{\quad}{}
+\item \textbf{Διαδικτυακοί τόποι, στους οποίους συνήθως λαμβάνουν χώρα περιστατικά
+ψηφιακού εκφοβισμού}
+\end{list}
+\begin{itemize}
+  \item Τα εικονικά δωμάτια συζήτησης (Chat rooms). \setlength{\itemsep}{15pt}
+  \item Oι ιστότοποι κοινωνικής δικτύωσης (Social Networking Websites).  \setlength{\itemsep}{15pt} 
+  \item Oι ηλεκτρονικοί πίνακες ανακοινώσεων (Message Boards).  \setlength{\itemsep}{15pt}  
+ \end{itemize}
+\end{adjustwidth}
+\end{frame}
+
+%
+% Fourteenth Slide
+%
+
+\begin{frame}[t]
+\frametitle{Ο κυβερνοεκφοβισμός}
+\vspace{10pt}
+\framesubtitle{Μορφές του κυβερνοεκφοβισμού}
+\vspace{-18.5pt}
+\begin{adjustwidth}{-0.7cm}{}
+\justifying
+\begin{itemize}
+  \item Oι προσωπικοί ιστότοποι δημοσκοπήσεων ή ψηφοφοριών (Personal Polling Voting Websites).
+ \setlength{\itemsep}{15pt}
+\end{itemize}
+
+\end{adjustwidth}
+\end{frame}
+
+%
+% Fifteenth Slide
+%
+
+\begin{frame}[t]
+\frametitle{Σύγκριση συμβατικού και ψηφιακού εκφοβισμού}
+\vspace{-18.5pt}
+\begin{adjustwidth}{-0.7cm}{}
+\justifying
+\begin{itemize}
+  \item Ο ψηφιακός εκφοβισμός, δεν προϋποθέτει την υπεροχή που προϋποθέτει ο
+  συμβατικός εκφοβισμός (δύναμη και ισχύ) για την επιβολή στο θύμα.
+  \setlength{\itemsep}{15pt}
+  \item Ο ψηφιακός εκφοβισμός, συνεχίζεται οπουδήποτε και οποτεδήποτε αρκεί το
+  θύμα να να χρησιμοποιεί τις νέες τεχνολογίες, ενώ στον συμβατικό, σταματά όταν φύγει από
+  το χώρο του σχολείου. \setlength{\itemsep}{15pt}
+ \setlength{\itemsep}{15pt}
+\end{itemize}
+
+\end{adjustwidth}
+\end{frame}
+
+%
+% Sixteenth Slide
+%
+
+\begin{frame}[t]
+\frametitle{Αποτελεσματικές πρακτικές αντιμετώπισης του σχολικού
+χουλιγκανισμού}
+\vspace{-18.5pt}
+\begin{adjustwidth}{-0.7cm}{}
+\justifying
+\begin{itemize}
+  \item Σχεδιασμός από το σύνολο της σχολικής κοινότητας (δράσεις και στόχοι). 
+\setlength{\itemsep}{15pt} 
+ \item Διαμόρφωση πολιτικής. \setlength{\itemsep}{15pt}
+ \item Εφαρμογή των στρατηγικών πρόληψης και παρέμβασης.
+ \setlength{\itemsep}{15pt} 
+ \item Διατήρηση του αποφασισθέντος προγράμματος  καταπολέμησης της ενδοσχολικής
+ βίας και των βανδαλισμών. \setlength{\itemsep}{15pt} 
+ \item Στρατηγικές πρόληψης \setlength{\itemsep}{15pt} 
+\begin{itemize}
+  \item H αναστοχαστική πρακτική (ανάλυση και αξιοποίηση όλων των δράσεων της
+  σύγχρονης παιδαγωγικής, για την αποτροπή πράξεων της μαθητικής βίας).
+
+\end{itemize}
+
+\end{itemize}
+
+\end{adjustwidth}
+\end{frame}
+
+%
+% Seventeenth Slide
+%
+
+\begin{frame}[t]
+\frametitle{Αποτελεσματικές πρακτικές αντιμετώπισης του σχολικού
+χουλιγκανισμού}
+\vspace{-18.5pt}
+\begin{adjustwidth}{-0.7cm}{}
+\justifying
+\begin{itemize}
+  \item
+    \begin{itemize}
+    \item Οι διαδραστικές πρακτικές.
+    \end{itemize}
+\end{itemize}    
+\begin{list}{\quad}{}
+\item \textbf{Δημιουργία κλίματος,που προάγει τις θετικές κοινωνικές σχέσεις
+μεταξύ των μαθητών
+}
+\end{list}
+\begin{itemize}
+  \item Στρατηγικές πρόληψης \setlength{\itemsep}{15pt}  
+  \begin{itemize}
+  \item Η διάθεση τακτικού χρόνου για τη διαχείριση του προβλήματος (Circle
+  time).  
+  \item Η συνεργατική μάθηση. 
+  \item Η χρήση της κοινωνιομετρίας (για την χαρτογράφηση των σχέσεων των παιδιών στην τάξη). 
+  \item Το παιχνίδι ρόλων.  
+  \item Οι  πρακτικές συμπαράστασης των θυμάτων από τους συμμαθητές τους. 
+  \end{itemize}
+  \item Στρατηγικές παρέμβασης \setlength{\itemsep}{15pt} 
+    \begin{itemize}
+  \item Στα παιδιά που εκφοβίζονται
+    \end{itemize}
+\end{itemize}
+
+
+
+\end{adjustwidth}
+\end{frame}
+
+
+
+%
+% Eighteenth Slide
+%
+
+\begin{frame}[t]
+\frametitle{Αποτελεσματικές πρακτικές αντιμετώπισης του σχολικού
+χουλιγκανισμού}
+\vspace{-18.5pt}
+\begin{adjustwidth}{-0.7cm}{}
+\justifying
+\begin{itemize}
+  \item 
+    \begin{itemize}
+   \item Στα παιδιά που εκφοβίζουν. 
+  \item Στους συνομηλίκους θεατές
+  \item Στους εκπαιδευτικούς.  
+  \item Στους γονείς.
+  \item Στο περιβάλλον.
+    \end{itemize}
+\end{itemize}
+
+
+
+\end{adjustwidth}
+\end{frame}
+
+\end{document}
