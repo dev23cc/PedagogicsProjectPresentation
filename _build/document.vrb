@@ -1,0 +1,24 @@
+\begin{minipage}[t]{0.99\textwidth}
+      %  \vspace{0pt}
+\frametitle{Ορισμός και ετυμολογία του όρου}
+\vspace{-18.5pt} % reduce frame title after spacing
+%% \makebox[\linewidth]{\rule{12cm}{3cm}} % a nice black box
+
+%% Spacing between bullets and text
+% \setlength\labelsep   {\dimexpr\labelsep + 0.5em\relax}
+% \setlength\leftmargini{\dimexpr\leftmargini + 0.5em\relax}
+%%
+\begin{adjustwidth}{-0.7cm}{} % reduce left spacing
+\justifying
+\begin{itemize} %\setlength{\itemsep}{15pt}
+\item Ρατσιστική, ανάρμοστη, βίαιαη και
+αντικοινωνική συμπεριφορά.\setlength{\itemsep}{15pt}
+\item Συμμορίες του δρόμου - Λονδίνο δεκαετία
+1980 - Patrick Hooligan. \setlength{\itemsep}{15pt}
+\item Πολυπληθείς χειραγωγούμενες ομάδες ανθρώπων (Γκουστάβ Λε Μπόν) - ψυχολογία
+της μάζας (Φρόυντ). \setlength{\itemsep}{15pt}
+\item\setlength{\itemsep}{15pt}Εξάπλωση του φαινομένου σε Χώρες της Ευρώπης και
+της Αμερικής.
+\end{itemize}
+\end{adjustwidth}
+\end{minipage}
