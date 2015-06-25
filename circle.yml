@@ -1,0 +1,14 @@
+machine:
+  pre:
+    - sudo apt-get install p7zip-full ttf-gfs-didot ttf-gfs-didot-classic
+    - wget https://gist.githubusercontent.com/dev23cc/ee158185167cc2499ec2/raw/6d62a94977c57ff8a1d4da09e2737b3b620313aa/texlive.profile
+    - wget http://tug.ctan.org/systems/texlive/Images/texlive.iso
+    - 7z x texlive.iso
+    - chmod +x install-tl
+    - sudo ./install-tl --profile=texlive.profile
+checkout:
+  post:
+     - latestTag=$(git describe --tags `git rev-list --tags --max-count=1`)
+     - git archive --format zip --output source.zip  $latestTag
+     - mkdir _build
+     - /usr/local/texlive/2014/bin/x86_64-linux/xelatex -output-directory=_build document.tex
